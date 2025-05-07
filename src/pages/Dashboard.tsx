@@ -1,9 +1,8 @@
-
 import { useState } from "react";
 import Header from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Motorcycle, Users, MapPin, Activity } from "lucide-react";
+import { Bike, Users, MapPin, Activity } from "lucide-react";
 import ParkingLayout from "@/components/ParkingLayout";
 
 // Usuário atual mockado
@@ -18,7 +17,7 @@ const stats = [
     title: "Total de Motos",
     value: "37",
     change: "+5%",
-    icon: <Motorcycle className="h-5 w-5" />
+    icon: <Bike className="h-5 w-5" />
   },
   {
     title: "Usuários Ativos",
@@ -166,7 +165,7 @@ const Dashboard = () => {
                 <CardContent>
                   <div className="grid grid-cols-2 gap-4">
                     <button className="p-4 bg-muted hover:bg-moto/20 rounded-md text-center transition-colors">
-                      <Motorcycle className="mx-auto h-6 w-6 mb-2 text-moto" />
+                      <Bike className="mx-auto h-6 w-6 mb-2 text-moto" />
                       <span className="text-sm font-medium">Nova Moto</span>
                     </button>
                     <button className="p-4 bg-muted hover:bg-moto/20 rounded-md text-center transition-colors">

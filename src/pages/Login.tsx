@@ -1,7 +1,6 @@
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Motorcycle } from "lucide-react";
+import { Bike } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -69,7 +68,7 @@ const Login = () => {
       <div className="w-full max-w-md space-y-6">
         <div className="flex flex-col items-center space-y-2 text-center">
           <div className="bg-moto/10 p-3 rounded-full">
-            <Motorcycle className="h-10 w-10 text-moto" />
+            <Bike className="h-10 w-10 text-moto" />
           </div>
           <h1 className="text-3xl font-bold">
             <span className="text-moto">Moto</span>Pátio

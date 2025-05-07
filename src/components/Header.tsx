@@ -1,5 +1,4 @@
-
-import { Motorcycle, User, LogOut } from "lucide-react";
+import { Bike, User, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
@@ -24,7 +23,7 @@ const Header = ({ currentUser }: HeaderProps) => {
     <header className="bg-black border-b border-moto/20 py-3 px-4 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <Motorcycle className="text-moto h-7 w-7" />
+          <Bike className="text-moto h-7 w-7" />
           <h1 className="text-xl font-bold text-white">
             <span className="text-moto">Moto</span>Pátio
           </h1>

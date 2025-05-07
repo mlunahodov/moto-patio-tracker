@@ -69,11 +69,12 @@ const ParkingLayout = () => {
     }
   };
   
+  // Definindo as variáveis que estavam indefinidas
+  const rows = ['A', 'B', 'C', 'D', 'E'];
+  const columns = 5;
+  
   // Gerar layout de estacionamento
   const generateParkingGrid = () => {
-    const rows = ['A', 'B', 'C', 'D', 'E'];
-    const columns = 5;
-    
     return (
       <div className="grid gap-8 mb-8">
         {rows.map((row) => (

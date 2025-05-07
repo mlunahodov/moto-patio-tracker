@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Motorcycle } from "lucide-react";
+import { Bike } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { 
   Tooltip,
@@ -54,7 +54,7 @@ const ParkingSpot = ({
             )}
           >
             {isOccupied ? (
-              <Motorcycle className="w-6 h-6" />
+              <Bike className="w-6 h-6" />
             ) : (
               <span className="text-xs text-muted-foreground">{row}{number}</span>
             )}

@@ -1,11 +1,10 @@
-
 import { useState } from "react";
 import Header from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import ParkingLayout from "@/components/ParkingLayout";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Motorcycle } from "lucide-react";
+import { Bike } from "lucide-react";
 
 // Usuário atual mockado
 const currentUser = {
@@ -32,7 +31,7 @@ const PatioMap = () => {
               className="bg-moto hover:bg-moto-dark text-black"
               onClick={() => window.location.href = "/motos/new"}
             >
-              <Motorcycle className="mr-2 h-4 w-4" />
+              <Bike className="mr-2 h-4 w-4" />
               Nova Moto
             </Button>
           </div>

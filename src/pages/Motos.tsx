@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "@/components/Header";
@@ -20,7 +19,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Motorcycle, Search, MoreVertical, Edit, Trash } from "lucide-react";
+import { Bike, Search, MoreVertical, Edit, Trash } from "lucide-react";
 import { MotoInfo } from "@/components/ParkingSpot";
 import MotoForm from "@/components/MotoForm";
 import { useToast } from "@/components/ui/use-toast";
@@ -185,7 +184,7 @@ const Motos = () => {
               className="bg-moto hover:bg-moto-dark text-black"
               onClick={handleNewMoto}
             >
-              <Motorcycle className="mr-2 h-4 w-4" />
+              <Bike className="mr-2 h-4 w-4" />
               Nova Moto
             </Button>
           </div>
